@@ -39,11 +39,7 @@ We used this approach in Badoo company, and it works really very nice, and helps
 
 > Anything else you think is relevant to your solution
 
-Unfortunately, I faced with some not so good things at Laravel framework. 
-
-For example, it is pagination. It uses `OFFSET` and `LIMIT` sql lexemes, but it is much better to use pagination based on `LAST_FOUND_ID` and `LIMIT`. It help to select data more faster from database like MySQL.
-
-Also, in Laravel has not `SET` data structure in migrations.
+I used standard pagination in Laravel. It uses `OFFSET` and `LIMIT` sql lexemes, but it is much better to use pagination based on `LAST_FOUND_ID` and `LIMIT`. It help to select data more faster from database like MySQL.
 
 ### Tech stack
 
